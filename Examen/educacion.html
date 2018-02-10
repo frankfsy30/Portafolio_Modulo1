@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Hoja de Vida Digital</title>
+</head>
+<body>
+	<header>
+		<img src="images/logo.svg" width="200px" alt="Logo FIRT" title="Logo FIRT">
+	</header>
+	<section>
+		<h1>Hoja de Vida</h1>
+		<h2>Francisco Iván Romero Torres</h2>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="educacion.html">Educación</a></li>
+				<li><a href="experiencia.html">Experiencia</a></li>
+			</ul>
+		</nav>
+	</section>
+	<section>
+		<h2>Educación</h2>
+		<table border="1" cellpadding="0" cellspacing="0">
+			<thead>
+				<tr>
+					<th>Descripción</th>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>¿Culminó?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>CCNA Switching & Routing: Introducción a redes</td>
+					<td>03/03/2016</td>
+					<td>CISCO</td>
+					<td>Instituto Tecnológico Superior de Lagos de Moreno</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>Curador de datos</td>
+					<td>13/08/2017</td>
+					<td>Inttelmex S.C.</td>
+					<td>Capacitate para el empleo</td>
+					<td>Si</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	<section>
+		<h2>Agregar Estudios</h2>
+		<form>
+			<label for="txtDescripcion"><b>Descripción:</b></label>
+			<br />
+			<textarea name="descripcion" id="txtDescripcion" required></textarea>
+			<br />
+			<label for="cmbanno"><b>Año:</b></label><br />
+			<select name="anno_elaborado" id="cmbanno">
+				<option value="1990">1990</option>
+				<option value="1991">1991</option>
+				<option value="1992">1992</option>
+				<option value="1993">1993</option>
+				<option value="1994">1994</option>
+				<option value="1995">1995</option>
+				<option value="1996">1996</option>
+				<option value="1997">1997</option>
+				<option value="1998">1998</option>
+				<option value="1999">1999</option>
+				<option value="2000">2000</option>
+				<option value="2001">2001</option>
+				<option value="2002">2002</option>
+				<option value="2003">2003</option>
+				<option value="2004">2004</option>
+				<option value="2005">2005</option>
+				<option value="2006">2006</option>
+				<option value="2007">2007</option>
+				<option value="2008">2008</option>
+				<option value="2009">2009</option>
+				<option value="2010">2010</option>
+				<option value="2011">2011</option>
+				<option value="2012">2012</option>
+				<option value="2013">2013</option>
+				<option value="2014">2014</option>
+				<option value="2015">2015</option>
+				<option value="2016">2016</option>
+				<option value="2017">2017</option>
+				<option value="2018">2018</option>
+			</select><br />
+			<label for="txtInstitucion"><b>Institución:</b></label>
+			<br />
+			<input type="text" name="Institución" id="txtInstitucion" required>
+			<br />
+			<label for="txtLugar"><b>Lugar:</b></label>
+			<br />
+			<textarea name="lugar" id="txtLugar" required></textarea>
+			<br />
+			<label for="rdCulmino"><b>¿Culminó?</b></label>
+			<br />
+			<input type="radio" name="genero" id="rdGenero" value="Si" required>
+			<label for="">Si</label>
+			<input type="radio" name="genero" id="rdGenero" value="No" required>
+			<label for="">No</label>
+			<br /><br />
+			<input type="submit" id="btnEnviar" value="Enviar">
+		</form>
+	</section>
+	<footer>
+		<p>@ Derechos Reservados<br /><br />
+			<strong>Email:</strong> francisco.ivan.rt@outlook.com <br />
+			<strong>Teléfono:</strong> 4741360105 <br />
+			<strong>Redes sociales:</strong> <a href="https://www.facebook.com/frankptv">Facebook</a>
+		</p>
+	</footer>
+</body>
+</html>
